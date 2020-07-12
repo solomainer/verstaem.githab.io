@@ -1,0 +1,160 @@
+*{
+    box-sizing: border-box;
+}
+@font-face{
+    font-family:"Calibri.woff",sans-serif; 
+    src:url("../fonts/Calibri.woff") ; 
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.clearfix:after{
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+.header{
+    background-repeat: no-repeat;
+    background: no-repeat center top/cover;
+    height: 2080px;
+    z-index: 0;
+}
+.container{
+    width: 1250px;    
+    margin: 0 auto;
+}
+.logo{
+    margin-top: 26px;
+    float: left;
+}
+nav{
+    float: right;
+    margin-top: 50px;
+}
+.menu{
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+.menu li{
+    float: left;
+    display: block;
+    margin-left: 70px;
+}
+.menu li a{
+    color: #7f7f7f;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: calibri, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+.titles{
+    margin-left: -2px;
+}
+.titles_ferst{ 
+    color: #616161;
+    margin-top: 45px;
+    text-align: left;
+    
+}
+
+h1 {
+    font-size: 60px;
+    color: #141419;
+    text-align: left;  
+    z-index: 1;
+}
+.titles h1{
+    font-family: calibri, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 90px;
+}
+
+h2{
+    font-family: calibri, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    color: #141419;
+    text-align: center; 
+    z-index: 2;
+}
+.second_headline{
+    margin-top: -1320px;
+}
+
+.call_me{
+    display: inline-block;
+    margin-top:46px
+}
+
+.titles_two{
+    text-align: center;
+    font-size: 24px;
+    color: #616161;
+    margin-top: -25px;
+}
+.titles_three{
+    text-align: right;
+    font-size: 18px;
+    color: #141419;
+    margin-top: 80px;
+    margin-right: 270px;
+}
+.titles_three{
+    font-family: calibri, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+
+.titles_over {
+    text-align: right;
+    font-size: 18px;
+    color: #141419;
+    margin-top: 100px;
+    margin-right: 268px;
+}
+.titles_over p{
+    font-family: calibri, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    margin-top: -15px;
+}
+.titles_works{   
+    color: #616161;
+    margin-top: -30px;
+    text-align: left;
+}
+.title_partner {    
+    color: #141419;
+    text-align: left;
+    margin-left:46px;
+    margin-top: -9px; 
+}
+h3 {
+    font-size: 60px;
+    font-family: calibri, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+
+    z-index: 3;
+}
+h4{
+    font-size: 24px;
+    z-index: 4;
+    font-family: calibri, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+}
+.partner_logo{
+    width: 1250px; 
+}
+
+.logo_p{ 
+    width:159px;    
+    float: right;    
+}
